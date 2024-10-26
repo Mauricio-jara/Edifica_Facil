@@ -1,0 +1,34 @@
+ion-toolbar{
+  --background: #ffffff;
+  --ion-border-color: transparent;   
+}
+
+ion-back-button{
+  --color: #000000;
+}
+
+ion-content{
+  --ion-background-color: #ffffff;
+}
+
+ion-card{
+  --background: #ffffff;
+  border: 5px solid #000000;
+  box-shadow: none;
+}
+  
+ion-button{
+  --color: #000000;
+  --border-color: #000000;
+}
+
+.fuente_p{
+  color: #000000;
+  font-size: 25px;
+}
+
+.card_grey{
+  --background: #595959;
+  border: none;
+  color: #ffffff;
+}

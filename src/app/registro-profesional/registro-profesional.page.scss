@@ -1,0 +1,30 @@
+ion-content{
+    --ion-background-color: #ffffff;
+}
+ion-col{
+    --ion-background-color: #ffffff;
+}
+ion-item{
+    --background: #ffffff;
+    --color: #000000;
+    --border-color: transparent;
+}
+ion-input{
+    --background: #808080;
+}
+ion-select{
+    --background: #808080;
+}
+ion-button{
+    --background: #808080;
+}
+ion-checkbox {
+    --size: 32px;
+    --checkbox-background-checked: #ffffff;
+  }
+  
+  ion-checkbox::part(container) {
+    border-radius: 6px;
+    border: 2px solid #000000;
+    background-color: #ffffff;
+  }

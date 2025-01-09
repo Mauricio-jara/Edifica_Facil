@@ -1,0 +1,95 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/inicio-pro" text="volver" icon="assets/img/arrow-undo.svg">volver</ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!--Seccion de perfil-->
+  <ion-card >
+    <ion-card-content>
+      <ion-grid>
+        <ion-row>
+          <ion-col size="2">
+            <a href="">
+              <img src="assets/img/notifications.svg">
+            </a>
+          </ion-col>
+          <ion-col size="1">
+            <br>
+          </ion-col>
+          <ion-col size="6">
+            <img src="assets/img/person-circle-outline.svg">
+          </ion-col>
+          <ion-col size="1">
+            <br>
+          </ion-col>
+          <ion-col size="2">
+            <a href="">
+              <img src="assets/img/settings-sharp.svg">
+            </a>
+          </ion-col>
+          <ion-col size="12">
+            <h2 class="ion-text-center fuente_p">Nombre</h2>
+          </ion-col>
+          <ion-col size="12">
+            <ion-row>
+              <ion-col size="2">
+                <br>
+              </ion-col>
+              <ion-col size="3">
+                <img src="assets/img/logo-whatsapp.svg">
+              </ion-col>
+              <ion-col size="3">
+                <img src="assets/img/mail-outline.svg">
+              </ion-col>
+              <ion-col size="2">
+                <img src="assets/img/location.png">
+              </ion-col>
+              <ion-col size="2">
+                <br>
+              </ion-col>
+            </ion-row>
+          </ion-col>
+          <ion-col size="12">
+            <h2 class="ion-text-center fuente_p">Nivel Profesional</h2>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card-content>
+  </ion-card>
+  <!--Seccion de portafolio-->
+  <a>
+    <ion-card class="card_grey">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="8">
+            <h2>Portafolio visual</h2>
+          </ion-col>
+          <ion-col size="4">
+            <img src="assets/img/toolbox.png">
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </a>
+  <!--Seccion de pagos-->
+  <a>
+    <ion-card class="card_grey">
+      <ion-grid>
+        <ion-row>
+          <ion-col size="8">
+            <br>
+            <h2>Mis pagos</h2>
+            <br>
+          </ion-col>
+          <ion-col size="4">
+            <img src="assets/img/pagos.png">
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-card>
+  </a>
+</ion-content>

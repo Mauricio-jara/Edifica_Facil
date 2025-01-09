@@ -1,0 +1,7 @@
+{
+  "name": "EdificaFacil",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

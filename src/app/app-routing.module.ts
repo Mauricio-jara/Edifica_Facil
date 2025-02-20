@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'registro-profesional',
     loadChildren: () => import('./registro-profesional/registro-profesional.module').then( m => m.RegistroProfesionalPageModule)
   },
+  {
+    path: 'trabajos',
+    loadChildren: () => import('./trabajos/trabajos.module').then( m => m.TrabajosPageModule)
+  },
 ];
 
 @NgModule({
